@@ -3,6 +3,7 @@ import os
 
 # Initialize the OpenAI API
 openai.api_key = os.getenv('OPENAI_KEY')
+openai.api_key = "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"
 
 def chatgpt_prompt(prompt):
     response = openai.ChatCompletion.create(
